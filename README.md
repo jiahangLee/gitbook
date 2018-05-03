@@ -1,2 +1,0 @@
-# gitbook
-note everyday
