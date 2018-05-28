@@ -77,7 +77,7 @@
 * git pull --rebase origin master
 
 2.java 网络请求/数据流  
-
+```  java
     URL url  = new URL("www.~.com");
     URLConnect conn = url.openConnect();
     InputStream is = conn.getInputStream();
@@ -89,7 +89,7 @@
     }
     is.close();
     os.close();  
-
+```
 3.Cross the rubicon/穿过卢比孔河
 ```  java
 InputStream is = url.openStream();
