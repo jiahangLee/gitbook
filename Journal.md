@@ -51,7 +51,7 @@
 > 
 > 1. 这是第一行列表项
 > 2. 这是第二行列表项
-## 20180528
+## 20180527
 - Red
 - Green
 - Blue
@@ -69,4 +69,24 @@
 *斜体文本*  或者 _斜体文本_
 
 ~~删除文本~~
+## 20180528
+1.github复习
+* git remote add origin http://
+* git pull origin master / git push origin master
+* git checkout -b 仓库名 origin/分支名
+* git pull --rebase origin master
+2.java 网络请求/数据流
+    URL url  = new URL("www.~.com");
+    URLConnect conn = url.openConnect();
+    InputStream is = conn.getInputStream();
+    OutputStream os = new FileOutputStream("本地路径");
+    int i = 0;
+    while(i != 0){
+    is.read();
+    os.write();
+    }
+    is.close();
+    os.close();
+3.    
+
 
