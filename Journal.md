@@ -5,17 +5,17 @@
 ###### 五级标题
 ###### 六级标题
 
-##2018.05.02
+## 2018.05.02
 ``` java
 #useradd -d /usr/sam -m sam   //创建用户并增加用户主目录
 #useradd -s /bin/sh -g group –G adm,root gem    //增加登录shell为/bin/sh、增加主组group副组adm，root
 #userdel -r sam   //删除用户＋主目录
 ```
-##2018.05.05  
+## 2018.05.05  
 
     LOL一天
 
-##2018.05.09  
+## 2018.05.09  
 * css水平居中：display：block；margin 0 auto；  
 * css垂直居中：line-height：100px；  
 * pl
