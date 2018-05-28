@@ -91,9 +91,9 @@
     os.close();  
 ```
 3.Cross the rubicon/穿过卢比孔河
-```  java
-InputStream is = url.openStream();
-``` 
+
+    InputStream is = url.openStream();
+ 
     
   
 
