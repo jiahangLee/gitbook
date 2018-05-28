@@ -95,15 +95,12 @@
 3.Cross the rubicon/穿过卢比孔河
 
     InputStream is = url.openStream();
-4.空格
-
-ioio
-
-这是一个换行  
-换行  
-这是一个
+4.空格与换行  
+空格
 
 换行
+
+
 
 
     
