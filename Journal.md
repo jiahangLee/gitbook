@@ -95,10 +95,19 @@
 3.Cross the rubicon/穿过卢比孔河
 
     InputStream is = url.openStream();
-4.空格与换行  
-空格
-
-换行
+** 20180529
+1.网络协议
+|网络层|协议|
+|:---:|:---:|
+|应用层|http、dns|
+|传输层|tcp、udp|
+|网络层|ip、arp、rarp|
+|数据连接层|ppp|
+|物理层|绞线规定|
+2.有了ip为什么需要mac？  
+二层以下不认识ip层协议，需要通过mac指定物理机。
+路由跳转中，mac改变，ip不变。
+3.HttpClient如要如何加入合适的jar？
 
 
 
