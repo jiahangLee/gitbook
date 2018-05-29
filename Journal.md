@@ -95,7 +95,7 @@
 3.Cross the rubicon/穿过卢比孔河
 
     InputStream is = url.openStream();
-** 20180529  
+## 20180529  
 1.网络协议
 
 |网络层|协议|
@@ -105,6 +105,7 @@
 |网络层|ip、arp、rarp|
 |数据连接层|ppp|
 |物理层|绞线规定|  
+
 2.有了ip为什么需要mac？    
 二层以下不认识ip层协议，需要通过mac指定物理机。  
 路由跳转中，mac改变，ip不变。  
