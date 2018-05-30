@@ -67,7 +67,7 @@
     InputStream is = url.openStream();
     
 ## 20180529  
-**profile 配置文件**
+**profile 配置文件**  
 1.网络协议
 
 |网络层|协议|
@@ -89,6 +89,7 @@
 
 3.HttpClient如要如何加入合适的jar？  
 ## 20180530 
+**byte/character 字节、字符**
 
     熟练使用javaSE 线程 集合 IO流；
     对jvm运行原理有一定的了解；
@@ -96,7 +97,8 @@
     对3大数据库有使用经验；
     对前端js、jq、框架有使用经验；
 
-
+* String、Stringbuffer、StringBuild
+* sync同步、异步请求、回调
 
 
 
