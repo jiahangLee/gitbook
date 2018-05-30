@@ -100,6 +100,7 @@
 
 * String、Stringbuffer、StringBuild
 * sync同步、异步请求、回调
+* http的post、get请求
 
 
 
