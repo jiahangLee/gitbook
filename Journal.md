@@ -121,7 +121,7 @@
 > > 函数锁
 > > >代码块锁
 
-![123](http://www.jiahanglee.club:8080/test/build/static/media/img/123.png)
+![123](http://www.jiahanglee.club:8080/123.png)
 
 
 
