@@ -121,7 +121,7 @@
 > > 函数锁
 > > >代码块锁
 
-*关系图
+* *关系图*
 ![123](https://github.com/jiahanglee/gitbook/raw/master/搜狗截图20180531165418.png)
 
 
