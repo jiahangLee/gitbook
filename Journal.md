@@ -101,7 +101,24 @@
 * String、Stringbuffer、StringBuild
 * sync同步、异步请求、回调
 * http的post、get请求
+## 20180531
+**thread 线程 synchronized 同步的**  
+1.继承thread，重写run方法
+2.实现runnable接口，实现run方法
+3.线程设置优先级
 
+|:---:|:---:|:---:|
+|join()|合并为同步线程|从阻塞到可运行状态|
+|start()|静态线程启动|从初始到达可运行状态|
+|sleep()|静态线程启动|从运行到阻塞|
+|yield()|暂停|从运行到可运行状态|
+|wait()|等待|从运行到等待队列|
+|notify()|唤醒|从等待到锁池|
+
+4.synchronized的两种锁方式  
+> Synchronized
+> > 函数锁
+> > >代码块锁
 
 
 
