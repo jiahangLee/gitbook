@@ -67,7 +67,7 @@
     InputStream is = url.openStream();
     
 ## 20180529  
-**profile 配置文件**
+*profile 配置文件*
 
 1.网络协议
 
@@ -90,7 +90,7 @@
 
 3.HttpClient如要如何加入合适的jar？  
 ## 20180530 
-**byte/character 字节、字符**
+*byte/character 字节、字符*
 
     熟练使用javaSE 线程 集合 IO流；
     对jvm运行原理有一定的了解；
@@ -102,7 +102,7 @@
 * sync同步、异步请求、回调
 * http的post、get请求
 ## 20180531
-**thread 线程 synchronized 同步的**  
+*thread 线程 synchronized 同步的*  
 1.继承thread，重写run方法
 2.实现runnable接口，实现run方法
 3.线程设置优先级
