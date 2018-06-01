@@ -106,7 +106,11 @@
 
 1.继承thread，重写run方法  
 2.实现runnable接口，实现run方法  
-3.线程设置优先级
+3.线程设置优先级  
+4.synchronized的两种锁方式  
+> Synchronized
+> > 函数锁
+> > >代码块锁
 
 |方法|作用|状态转换|
 |:---:|:---:|:---:|
@@ -116,11 +120,6 @@
 |yield()|暂停|从运行到可运行状态|
 |wait()|等待|从运行到等待队列|
 |notify()|唤醒|从等待到锁池|
-
-4.synchronized的两种锁方式  
-> Synchronized
-> > 函数锁
-> > >代码块锁
 
 * *关系图*
 ![123](https://github.com/jiahanglee/gitbook/raw/master/搜狗截图20180531165418.png)
