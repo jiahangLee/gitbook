@@ -104,8 +104,8 @@
 ## 20180531
 *thread 线程 synchronized 同步的*  
 
-1.继承thread，重写run方法
-2.实现runnable接口，实现run方法
+1.继承thread，重写run方法  
+2.实现runnable接口，实现run方法  
 3.线程设置优先级
 
 |方法|作用|状态转换|
