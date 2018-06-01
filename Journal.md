@@ -123,7 +123,16 @@
 
 * *关系图*
 ![123](https://github.com/jiahanglee/gitbook/raw/master/搜狗截图20180531165418.png)
-
+## 20180601
+*version 版本*
+```  java   
+    Socket socket =  new Socket("127.0.0.1",9090);
+    InputStream is = socket.getInputStream();
+    OutputStream os = socket.getOutputStream();
+    PrintWrite pw = new PrintWrite(socket.getOutputStream);
+    ServerSocket ss = new ServerSocket(9090);
+    Socket socket = ss.accept();
+```    
 
 
 
