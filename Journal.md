@@ -140,6 +140,7 @@
 * 了解了bufferWrite和printWrite的缓冲区别  
 * System.in可以用Scanner来连续输入  
 ```  java
+    Scanner scanner = new Scanner(socket.getInputStream());
     while(scanner.hasNext())
          str=scanner.nextLine();
 ```
