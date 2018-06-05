@@ -134,8 +134,15 @@
     ServerSocket ss = new ServerSocket(9090);
     Socket socket = ss.accept();
 ```    
-
-
+## 20180606
+*stream 流 buffer 缓冲*  
+* 完成了多线程聊天小demo  
+* 了解了bufferWrite和printWrite的缓冲区别  
+* System.in可以用Scanner来连续输入  
+```  java
+    while(scanner.hasNext())
+         str=scanner.nextLine();
+```
 
 
 
