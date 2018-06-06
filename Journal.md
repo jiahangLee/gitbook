@@ -144,8 +144,40 @@
     while(scanner.hasNext())
          str=scanner.nextLine();
 ```
-
-
+## 20180606 内部类   
+*variable 变量*
+* 内部类  
+* 静态内部类  
+* 匿名内部类（只创建一次）
+* 局部内部类
+*双判断单例*
+```  java
+    public class Single{
+    private static volatile Single single;
+    privite Single(){};
+    public Static Single getSingle(){
+    if(single == null){
+    synchronize(Single.Class){
+    if(single == null){
+    Single = new Single();
+    }
+    }
+    }
+    return single;
+    }
+    }  
+```
+*静态内部类单例*
+```  java
+public class Single{
+privite Single(){};
+privite static class InnerSingle(){
+privite static final Single inner = new Single();
+}
+public static Single getSingle(){
+return InnerSingle.inner;
+}
+}
 
 
 
