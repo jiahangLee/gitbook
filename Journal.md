@@ -179,8 +179,7 @@ public static Single getSingle(){
 return InnerSingle.inner;
 }
 }
-
-  
-  ## es6
+```
+## es6
 
 
