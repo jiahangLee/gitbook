@@ -180,6 +180,12 @@ return InnerSingle.inner;
 }
 }
 ```
+## 20180607  
+* fileoutputStream 可以支持file参数和String参数  
+* objectoutputStream 序列化对象为字节序列
+* dataoutputStream 只能序列化基础类型，并不是对象
+* bufferreader 不能直接操作file
+
 ## es6
 
 
