@@ -20,3 +20,9 @@ where x.sno = y.sno
 * redis 5种存储类型 string，hash，list，set，sorted set
 * 3xx重定向 300多操作 301永久移动 302临时移动 305代理 400语法错误 404未找到 403禁止
 * hashtable是线程安全的
+## 0623~0624
+* **二分查找**
+* **插入排序**
+* **having用法**
+* **updata、delete**
+* **chown -R oracle:oinstall /oracle/u01/app/oracle**
