@@ -35,7 +35,7 @@ where x.sno = y.sno
 * 继承类初始化顺序，父类静态变量》父类静态代码块》子类静态变量》子类静态代码块》父类非静态》构造》子类非静态各类》子类构造
 *  instanceof 属于
 ## 0627 
-*contant 永恒 reference 引用、参考
+*contant 永恒 reference 引用、参考*
 * static 不能出现在方法中*
 * 接口中变量必须为 public static final
 * 静态方法一般不能被重写，可以被继承和重载
@@ -43,4 +43,13 @@ where x.sno = y.sno
 * final 修饰基础数据类型为值不变，修饰对象为 引用不变
 * final 类不能被继承，其中方法隐性为final方法
 * final 方法不能被重写，可以被继承和重载
+## 0628~0630
+* 集合类
+* io类
+* 迭代器是为了泛型遍历
+* concurrentLinkedList是CSA乐观锁
+* 异常处理
+* throwable、error、exception、检查异常、运行异常
+* finally先与return运行，finally里的return有覆盖效果
+
 
