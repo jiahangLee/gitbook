@@ -21,22 +21,27 @@ select top 10 * from a where id > (
 select max(id) from (select top 30 id from a order by id) order by id
 )
 ````
-*  -- 1.1 单表update单字段
-
-    update stu t set t.NAME = 'mike' where t.ID = '1';
+ * 单表update单字段
+```
+  update stu t set t.NAME = 'mike' where t.ID = '1';
+```
 * -- 1.2 单表update多字段
-
-    update stu t set t.NAME = 'mike', t.SEX = '1' where t.ID = '2';
-**多表关联update的时候,记得要加exists()条件,否则不满足条件的记录被update称NULL：
-比如：stu表存在,但stu1表不存在的数据,对应的字段会被updat成NULL;**
+```
+  update stu t set t.NAME = 'mike', t.SEX = '1' where t.ID = '2';
+```
+>**多表关联update的时候,记得要加exists()条件,否则不满足条件的记录被update称NULL：
+>比如：stu表存在,但stu1表不存在的数据,对应的字段会被updat成NULL;**
 * -- 2.1 多表关联update单字段
-
+```
     update stu t set t.NAME = (select t1.NAME from stu1 t1 where t1.ID = t.ID)
     where exists(select 1 from stu1 t2 where t2.ID = t.ID);
+```
 * -- 2.2 多表关联update多字段
-
+```
     update stu t set (t.NAME, t.SEX) = (select t1.NAME, t1.SEX from stu1 t1 where t1.ID = t.ID)
     where exists(select 1 from stu1 t2 where t2.ID = t.ID);
+```
 * //清空hive分区
-
+```
     alter table yaxin.t_pre_base drop if exists partition(l_date='20170101')
+```
