@@ -22,6 +22,26 @@
 * 合并（合并多子公司）
 * 安全（是不是？）
 * 它并不快
-#### 
-
-
+#### 触发器和存储过程
+* delimiter 定义sql语句结束符
+```` sql
+delimiter $
+  create trigger tr_name after insert
+  on student for ench row
+  begin
+      if(New.id)
+      ````
+      end if
+  end $    
+delimiter;
+----
+--in 只能通过外部传进来不能修改，out可以内部设定并且修改，inout只能外部给定但是可以修改
+delimiter $
+  create procedure pr_name(In p_in int)
+  begin
+      select p_in;
+      set p_in = 2;
+      ````
+  end $
+delimiter;
+````
