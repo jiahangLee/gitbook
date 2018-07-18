@@ -34,7 +34,7 @@ delimiter $
       end if
   end $    
 delimiter;
----
+***
 --in 只能通过外部传进来不能修改，out可以内部设定并且修改，inout只能外部给定但是可以修改
 delimiter $
   create procedure pr_name(In p_in int)
