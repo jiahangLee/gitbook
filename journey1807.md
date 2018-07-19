@@ -45,3 +45,6 @@ delimiter $
   end $
 delimiter;
 ````
+## 0719 
+#### 通过依赖注入是先控制反转
+
