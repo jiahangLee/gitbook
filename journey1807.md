@@ -49,5 +49,17 @@ delimiter $
 delimiter;
 ````
 ## 0719 
-#### 通过依赖注入是先控制反转
-
+#### 通过依赖注入实现控制反转
+## 0720 
+#### 游西湖
+#### idea 实现servlet试验
+#### tomcat 三种部署方式
+* web.xml编写
+* utf-8统一格式
+```` xml
+<welcome-file-list>
+<welcome-file>index</welcome-file>
+</welcome-file-list>
+````
+1，如果中文返回出现？？字符，这表明没有加response.setCharacterEncoding("UTF-8");这句话，（默认的ISO8859）  
+2，如果返回的中文是“烇湫”这种乱码，说明浏览器的解析问题，应该检查下是否忘加response.setHeader("Content-type", "text/html;charset=UTF-8");这句话。
