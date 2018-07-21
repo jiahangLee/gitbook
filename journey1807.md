@@ -63,3 +63,11 @@ delimiter;
 ````
 1，如果中文返回出现？？字符，这表明没有加response.setCharacterEncoding("UTF-8");这句话，（默认的ISO8859）  
 2，如果返回的中文是“烇湫”这种乱码，说明浏览器的解析问题，应该检查下是否忘加response.setHeader("Content-type", "text/html;charset=UTF-8");这句话。
+## 0721 duplicate 复制品
+#### servlet 资源访问最佳方式（servletContext）
+#### servlet 多映射
+#### setContentType("text/html";charset="utf-8")
+#### download file
+#### refresh
+#### sendredirect
+#### GZIPOutputStream
