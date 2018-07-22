@@ -71,3 +71,9 @@ delimiter;
 #### refresh
 #### sendredirect
 #### GZIPOutputStream
+## 0722
+#### resp.setContent("")/req.setContent
+#### response.sendRedirect()和req.forword() 都可携带参数
+#### forword（）url不包括web应用
+#### context和request都可以setAttribute，只不过request是一次http过程
+#### cookie小实验
