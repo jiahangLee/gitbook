@@ -185,3 +185,6 @@ Flow（流程如下）
   @RequestMapping
   ```
 
+## 0905
+
+* dva头像编辑展示问题
