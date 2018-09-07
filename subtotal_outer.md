@@ -199,3 +199,22 @@ Flow（流程如下）
 
 * **git branch -a :查看全部分支（远程的和本地的）**
 
+## 0907
+
+* Data too long for column 'editor' at row 1
+  * 通过Navicat设置varchar（1000）
+  * 设置字符集（不管用）
+
+* 新闻列表的修改还不行
+
+* 无状态和有状态组件
+
+* 受控组件和不受控组件（react富文本有疑问）
+
+* react component有三种形式
+
+  * React.Component
+    * 可以有自身的state
+
+  * function
+    * 纯函数，不受控吗
