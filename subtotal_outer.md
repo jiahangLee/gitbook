@@ -218,3 +218,10 @@ Flow（流程如下）
 
   * function
     * 纯函数，不受控吗
+
+## 0910 :palm_tree:
+
+* payload的es6用法
+* render（）的执行机制
+* :cat:
+
