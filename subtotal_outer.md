@@ -225,3 +225,10 @@ Flow（流程如下）
 * render（）的执行机制
 * :cat:
 
+* 子组件调用父组件函数
+
+  * bind（this，payload）中的this是实例化，方便在函数中使用this.bala
+
+  * 参数参照（id,values,url）
+    * url是直接从子组件的resp传过来直接更名的
+    * bind（null，id）中的id排在第一位
