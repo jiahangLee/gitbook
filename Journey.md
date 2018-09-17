@@ -224,3 +224,29 @@
   * render(){}中获取this.props
   * 带有onchange()的组件不能实现双向传递（类似item预览）
 
+## 0915~0916
+
+#### springboot2.0——jpa
+
+* ```
+  database-platform: org.hibernate.dialect.MySQL5InnoDBDialect 
+  #设置方言解决无外键问题
+  ```
+
+* javabean关系映射
+
+  * 一对一类似多对多，joinColumn（外来键名）
+  * 一对多(省略后出现中间表)和多对一（双向的）
+  * 在单向关系中没有 **mappedBy** ,主控方相当于拥有指向另一方的外键的一方。
+    * 1.一对一和多对一的@JoinColumn注解的都是在“主控方”，都是本表指向外表的外键名称
+    * 2.一对多的@JoinColumn注解在“被控方”，即一的一方，指的是外表中指向本表的外键名
+    * 3.多对多中，joinColumns写的都是本表在中间表的外键名称，inverseJoinColumns写的是另一个表在中间表的外键名称。
+  * 一些其他参数配置
+    * 1.cascade = CascadeType.ALL
+    * 2.fetch = FetchType.EAGER
+    * 1）、cascade = CascadeType.REMOVE
+    * 2）、fetch = FetchType.LAZY 
+  * 这是什么鬼
+    * @ManyToMany(cascade = { CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH }, fetch = FetchType.EAGER) 
+    * cascade=CascadeType.ALL,optional=true
+    * mappedBy = "cost", fetch = FetchType.LAZY, cascade = { CascadeType.ALL }, orphanRemoval = true 
