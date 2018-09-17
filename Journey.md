@@ -250,3 +250,11 @@
     * @ManyToMany(cascade = { CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH }, fetch = FetchType.EAGER) 
     * cascade=CascadeType.ALL,optional=true
     * mappedBy = "cost", fetch = FetchType.LAZY, cascade = { CascadeType.ALL }, orphanRemoval = true 
+
+## 0917
+
+* react表单提交后处理
+  * 保存处理
+    * localStorage本地存储
+  * 清空处理
+    * 设置key强制刷新
