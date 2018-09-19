@@ -266,7 +266,14 @@ Flow（流程如下）
 console.log(typeof p)
 ```
 
-# 0918
+## 0918
 
 * login如何操作
 * sqlsession
+
+## 0919
+
+* ```js
+  //实现默认赋值
+  const cookie = req.headers.cookie || ''  
+  ```
