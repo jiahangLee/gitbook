@@ -277,3 +277,19 @@ console.log(typeof p)
   //实现默认赋值
   const cookie = req.headers.cookie || ''  
   ```
+
+## 0920
+
+#### 登录验证
+
+* 传统方法
+  * 后端通过session维持一个回话，返回uid到客户端cookie
+
+* token
+  * jwt
+
+## 0926
+
+* prossion的then和catch
+* 其他请求没有携带cookie（可能禁用了）
+
