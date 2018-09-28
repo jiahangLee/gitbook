@@ -293,3 +293,62 @@ console.log(typeof p)
 * prossion的then和catch
 * 其他请求没有携带cookie（可能禁用了）
 
+## 0927
+
+* map.tostring与json
+
+## 0928
+
+##### 1. 后端设置set—cookie让前端保存token
+
+* 后台（需要指定localhost）
+
+  ```js
+  response.setHeader("Access-Control-Allow-Origin", "http://localhost:8000");
+  response.setHeader("Access-Control-Allow-Credentials", "true");
+  ```
+
+* 前端
+
+  ```js
+  fetch('a.com/api', {credentials: 'include'}).then(function(res) {
+      // ...
+  })
+  ```
+
+##### 2. 如何获取和打印token
+
+* ```js
+  response.headers.forEach((v,k)=>console.log(k,v))
+  ```
+
+* ```js
+  sessionStorage.setItem("token",response.headers.get("token"))
+  ```
+
+##### 3. 给headers 添加 token
+
+* 前台
+
+```js
+return request(hello2,{
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded',
+    Authorization: sessionStorage.getItem("token"),
+  },
+})
+```
+
+* 后台
+
+  ```java
+  response.setHeader("Access-Control-Expose-Headers","*");
+  //设置前端接收cookie
+  response.setHeader("Access-Control-Allow-Origin", "*");
+  response.setHeader("Access-Control-Allow-Credentials", "true");
+  ```
+
+##### 4. ？为什么null有时报错有时不报
+
+##### 5. react 如果fetch请求data为null，如果没有断点可能根本不会发现
+
