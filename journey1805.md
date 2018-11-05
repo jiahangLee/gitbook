@@ -11,18 +11,18 @@
 
 ## 2018.05.09  
 * css水平居中：display：block；margin 0 auto；  
-* css垂直居中：line-height：100px；  
+* css垂直居中：line-height：100px； 不能给子容器在height上受限制 
 * pl
 
-***  
----  
+***
+---
 
 > 这是一段引用    //在`>`后面有 1 个空格
 > 
 >     这是引用的代码块形式    //在`>`后面有 5 个空格
->     
+> 
 > 代码例子：
->   
+> 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -65,7 +65,7 @@
 3.Cross the rubicon/穿过卢比孔河
 
     InputStream is = url.openStream();
-    
+
 ## 20180529  
 *profile 配置文件*
 
@@ -86,6 +86,7 @@
 
 > 路由表 3层
 > > arp缓存表 2.5层
+> >
 > > >mac地址表 2层
 
 3.HttpClient如要如何加入合适的jar？  
@@ -110,6 +111,7 @@
 * synchronized的两种锁方式  
 > Synchronized
 > > 函数锁
+> >
 > > >代码块锁
 * *常用方法*
 
@@ -133,7 +135,7 @@
     PrintWrite pw = new PrintWrite(socket.getOutputStream);
     ServerSocket ss = new ServerSocket(9090);
     Socket socket = ss.accept();
-```    
+```
 ## 20180606
 *stream 流 buffer 缓冲*  
 * 完成了多线程聊天小demo  
