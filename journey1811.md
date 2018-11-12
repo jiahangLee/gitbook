@@ -44,25 +44,18 @@
 
 #### Oauth 2/JWT 
 
+#### utf-8和GBK :rose:
 
+* 基于区位码的GB2312 =>GBK/ANSI/CP936
+  * ASCII 的单字节字母和数字引入（全角和半角区别）
+* Unicode=>utf-8
+  * 需要注意的是utf-8不再通过单双字节来区分全角和半角，而是通过直接编码
 
+的方式区分。
 
+* 中文输入法中，符号默认为全角。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* 参考：https://www.cnblogs.com/hehheai/p/6510879.html
 
 
 
