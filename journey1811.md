@@ -36,13 +36,14 @@
 * 动态路由什么用
 * 路由守卫即权限路由，可以实现前端页面的路由层控制
 
-
-
-#### react native拓展
-
 #### restful风格接口
 
+* 同一个接口可能Get和Post有两个不同的意义
+  * security 可以通过请求方式做权限控制
+
 #### Oauth 2/JWT 
+
+* 两种方式都是为了使用token来进行验证
 
 #### utf-8和GBK :rose:
 
@@ -59,9 +60,35 @@
 
 
 
+#### bug修改：
+
+* 模板字符串``的错误转义‘+‘为’空格‘
+
+Bxzs17R2 OXd/6dMmd4aXw== 
+
+Bxzs17R2+OXd/6dMmd4aXw== 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+react native拓展
 
