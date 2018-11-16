@@ -64,15 +64,19 @@
 
 * 模板字符串``的错误转义‘+‘为’空格‘
 
-Bxzs17R2 OXd/6dMmd4aXw== 
+  Bxzs17R2 OXd/6dMmd4aXw== 
 
-Bxzs17R2+OXd/6dMmd4aXw== 
+  Bxzs17R2+OXd/6dMmd4aXw== 
 
-
-
-
+  * 解决方法：\+ => %2B
 
 
+
+* ```
+  , {credentials: 'include'}限制了跨域
+  ```
+
+* 添加新纪录跳转规则
 
 
 
