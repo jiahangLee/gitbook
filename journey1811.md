@@ -116,6 +116,14 @@
   * foreach
 * Scala
 
+#### http请求
+
+* 简单请求
+  * 请求头：text/plain，application/json、、multipart/form-data
+* 复杂请求 （有问题有问题）
+  * spring security默认login头导致option预检测
+  * 还有之前设置token时的application/x-www-form-urlencoded其实是get的url参数拼接格式
+
 #### 正则表达式
 
 #### 前后端异常处理
