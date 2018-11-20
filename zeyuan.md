@@ -28,5 +28,10 @@
 * 形参到底怎么用
 * https://github.com/jiahangLee/babyship_admin/commit/57a7f6aa67d8cf7e565de15a25189c61cd3760a8
 
+#### http://
 
+* 123.206.91.106 需要
+* localhost 也需要
+* www 也需要
 
+#### 树树树
