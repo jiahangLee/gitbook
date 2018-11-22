@@ -90,11 +90,23 @@
   * 有枚举
     * 也是统一常量的一种方式
 
+#### redis
 
+* 防火墙
+  * firewall （通过协议控制端口）
+    * https://www.cnblogs.com/zqifa/p/linux-firewall-1.html
+  * iptables  （直接控制端口）
+    * service iptables status
+    * service iptables start
+    * service iptables stop
+    * service iptables restart
+    *  vi /etc/sysconfig/iptables
+* 常用命令
+  * "netstat -anp" 来查看哪些端口被打开。 
+* telnet 工具安装
 
 #### 要准备
 
-* redis
 * Zookeeper
 * netty
 * kafka/
