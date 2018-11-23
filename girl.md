@@ -1,5 +1,28 @@
 ### 技术栈 :v:
 
+#### 池的概念
+
+* 线程池
+* 连接池
+* 常量池
+
+#### java内存模式
+
+* 
+
+#### dubbo 和 springCloud
+
+* dubbo中文文档
+
+#### tomcat && jvm
+
+- java编写，需要jvm才可以运行。
+- 线程池/连接池
+  * 阿里的最好吗
+- 模式
+  * nio 	tomcat8
+  * bio   tomcat7
+
 #### 多人访问同一份数据
 
 * 什么？推送
@@ -57,11 +80,9 @@
   * 同一个事务中读到不同的数据（updata）
 * 幻读
   * 同一个事务中读到不同的数据（add/delete）
-
 * platform TransactionManager
 * transactionDefinition
 * transactionStatus
-
 * 隔离级别
   * default
     * 依赖数据库：mysql为repeatable_read,orcle为read_commit
@@ -78,11 +99,9 @@
       * 回滚
   * 超时时间
   * 是否只读
-
 * 锁
   * 乐观锁
   * 悲观锁
-
 * 统一异常处理
   * 自定义异常类格式
   * 自定义异常继承runtimeException（有回滚）
