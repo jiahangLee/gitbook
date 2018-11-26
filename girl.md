@@ -122,6 +122,7 @@
     *  vi /etc/sysconfig/iptables
 * 常用命令
   * "netstat -anp" 来查看哪些端口被打开。 
+  * top查看cpu状态
 * telnet 工具安装
 
 #### 要准备
