@@ -126,6 +126,10 @@
   * top查看cpu状态
 * telnet 工具安装
 
+#### 正则js
+
+* 
+
 #### 要准备
 
 * Zookeeper
