@@ -8,7 +8,8 @@
 
 #### java内存模式
 
-* 
+* 八个操作
+* mesi
 
 #### dubbo 和 springCloud
 
@@ -128,10 +129,26 @@
 #### 要准备
 
 * Zookeeper
+
 * netty
+
 * kafka/
+
 * 数据结构
+
 * 算法 
+
+* 异常处理，aop拦截
+
+* 正则js/java
+
+* redis缓存
+
+* 单元测试
+
+* 数据结构简单实现
+
+  
 
 
 
