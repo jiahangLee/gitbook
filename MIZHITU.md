@@ -43,4 +43,12 @@
 
 * 返回统一格式
 * 处理所有异常
-* aop，各种拦截
+* aop，拦截器，过滤器
+  - Filter过滤器：拦截web访问url地址。 这个比拦截器范围广，过滤器是大集合，拦截器是大集合中的小集合。而且任何url是先经过过滤器后才进入拦截器的。
+  - Interceptor拦截器：拦截url以action结尾或者没有后缀的,没有后缀拦截器会认为是.action结尾。。 如：struts2拦截器、spring拦截器
+  - Spring AOP拦截器：只能拦截Spring管理Bean的访问（业务层Service），就是说执行某个bean容器中方法时进行拦截，而不是对url。
+
+#### 反射
+
+#### nio
+
