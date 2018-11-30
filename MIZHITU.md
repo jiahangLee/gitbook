@@ -1,4 +1,36 @@
-#### shiro
+#### restful风格
+
+* 用url描述资源
+* 用http方法描述行为
+  * get、post、put、delete
+* http状态码来表示不同的结果
+* 使用json交互数据
+* *他不是强制标准*
+
+#### jsonView
+
+* 实体类定义接口
+* get方法上加@jsonView注解
+* controller的@requireMaping下写@JsonView
+
+#### hibernate validator
+
+* 字段验证注解
+
+#### 杂
+
+* 注解加message打印错误信息
+* BindingResult erros 打印异常
+* * NotBLANK
+* @Valid 校验
+
+* @RequestBody 可以解析json
+* @requestMapping => @GetMapping
+  * @RequestMapping 可以用在类上面来减少restful的请求参数的代码重复
+* @PathVariable
+* 405为 请求类型出错post、get
+
+> #### shiro
 
 * IniRealm
   * 文本记录用户权限信息
@@ -48,7 +80,9 @@
   - Interceptor拦截器：拦截url以action结尾或者没有后缀的,没有后缀拦截器会认为是.action结尾。。 如：struts2拦截器、spring拦截器
   - Spring AOP拦截器：只能拦截Spring管理Bean的访问（业务层Service），就是说执行某个bean容器中方法时进行拦截，而不是对url。
 
-#### 反射
+#### 反射）
 
 #### nio
+
+#### 站点统计
 
