@@ -23,14 +23,40 @@
 * BindingResult erros 打印异常
 * * NotBLANK
 * @Valid 校验
-
 * @RequestBody 可以解析json
 * @requestMapping => @GetMapping
   * @RequestMapping 可以用在类上面来减少restful的请求参数的代码重复
 * @PathVariable
 * 405为 请求类型出错post、get
 
-> #### shiro
+#### 请求拦截
+
+* filter
+  * 可以拿到http的请求参数
+* Interceptor
+  * 可以获取那个类那个方法
+* aspect
+  * 可以获取具体参数值
+
+#### 文件上传
+
+* 通过file流可以将资源放到阿里云、七牛或ftp服务器上
+
+#### 多线程
+
+*  callable与runnable
+* deferredresult会进行线程对接
+* 参考：https://ask.csdn.net/questions/645320?sort=votes_count
+* https://segmentfault.com/a/1190000009490730
+
+#### bio、nio
+
+* 参考：https://segmentfault.com/q/1010000002998038
+* https://segmentfault.com/a/1190000009490730
+
+#### *要注释rbac那个类来着？*
+
+#### shiro
 
 * IniRealm
   * 文本记录用户权限信息
