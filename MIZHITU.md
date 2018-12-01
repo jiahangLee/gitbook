@@ -1,3 +1,28 @@
+#### reactor模式
+
+* java中的nio对应linux中的multiplexing io
+
+  * 与同步非阻塞IO区别
+
+* netty （异步阻塞）
+
+  * netty用的就是IO中的多路复用
+
+  * 在IO multiplexing Model中，实际中，对于每一个socket，一般都设置成为non-blocking，但是，如上图所示，整个用户的process其实是一直被block的。只不过process是被select这个函数block，而不是被socket IO给block。
+
+* java nio（同步非阻塞）
+
+* reactor下的概念
+
+  * acceptor
+  * dispath
+
+* nio下的概念
+  * channel
+  * selector
+  * buffer
+  * handle
+
 #### restful风格
 
 * 用url描述资源
@@ -49,9 +74,29 @@
 * 参考：https://ask.csdn.net/questions/645320?sort=votes_count
 * https://segmentfault.com/a/1190000009490730
 
-#### bio、nio
+#### bio、nio、aio
+
+* 还有个tomcat的apr
+
+* netty和阿帕奇mine
+
+* 目前我的理解
+
+  * **同步和异步**的概念描述的是用户线程与内核的交互方式：同步是指用户线程发起IO请求后需要等待或者轮询内核IO操作完成后才能继续执行；而异步是指用户线程发起IO请求后仍继续执行，当内核IO操作完成后会通知用户线程，或者调用用户线程注册的回调函数。
+    * 其实就是换人了
+  * **阻塞和非阻塞**的概念描述的是用户线程调用内核IO操作的方式：阻塞是指IO操作需要彻底完成后才返回到用户空间；而非阻塞是指IO操作被调用后立即返回给用户一个状态值，无需等到IO操作彻底完成。
+
+* nio线程等待的时候可以接私活？（不能）
+
+  * Java NIO ： 同步非阻塞，服务器实现模式为一个请求一个线程，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求时才启动一个线程进行处理。
+  * nonblocking IO的特点是**用户进程**在**内核准备数据的阶段**需要**不断的主动询问数据好了没有**。
+
+  * 只有完成这次请求才能释放资源，所以不适合长连接
+
+* aio适合长连接，就是io时间上，数据多
 
 * 参考：https://segmentfault.com/q/1010000002998038
+
 * https://segmentfault.com/a/1190000009490730
 
 #### *要注释rbac那个类来着？*
@@ -106,9 +151,7 @@
   - Interceptor拦截器：拦截url以action结尾或者没有后缀的,没有后缀拦截器会认为是.action结尾。。 如：struts2拦截器、spring拦截器
   - Spring AOP拦截器：只能拦截Spring管理Bean的访问（业务层Service），就是说执行某个bean容器中方法时进行拦截，而不是对url。
 
-#### 反射）
-
-#### nio
+#### 反射
 
 #### 站点统计
 
