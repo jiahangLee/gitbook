@@ -1,3 +1,16 @@
+#### 目前理解通信协议
+
+* bio:一个连接一个线程
+* 普通nio（同步非阻塞）：一个请求一个线程
+* java nio 和 linux多路复用（epoll或者netty）：基于reactor模型，适合短链接
+  * java nio：异步轮询
+  * epoll：异步通知
+  * 又叫异步阻塞（因为selector单线程管理多个通道channel）
+
+* linux暂不支持aio
+* apr 真正的异步不会阻塞
+* 缓存处理使异步成为可能
+
 #### reactor模式
 
 * java中的nio对应linux中的multiplexing io
