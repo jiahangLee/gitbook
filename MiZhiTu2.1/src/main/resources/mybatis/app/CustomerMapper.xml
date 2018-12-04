@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhipin.project.mzt.app.mapper.CustomerMapper">
+	<resultMap type="com.zhipin.project.mzt.app.domain.Customer" id="ResultMap">
+		<id column="id" jdbcType="INTEGER" property="id" />
+		<result column="customer_name" jdbcType="VARCHAR" property="customerName" />
+		<result column="customer_head" jdbcType="VARCHAR" property="customerHead" />
+		<result column="customer_password" jdbcType="VARCHAR" property="customerPassword" />
+		<result column="customer_phone" jdbcType="VARCHAR" property="customerPhone" />
+		<result column="customer_born" jdbcType="VARCHAR" property="customerBorn" />
+		<result column="zs_name" jdbcType="VARCHAR" property="zsName" />
+		<result column="customer_sex" jdbcType="CHAR" property="customerSex" />
+		<result column="customer_age" jdbcType="INTEGER" property="customerAge" />
+		<result column="census_register" jdbcType="VARCHAR" property="censusRegister" />
+		<result column="address" jdbcType="VARCHAR" property="address" />
+		<result column="customer_email" jdbcType="VARCHAR" property="customerEmail" />
+		<result column="customer_school" jdbcType="VARCHAR" property="customerSchool" />
+		<result column="customer_major" jdbcType="VARCHAR" property="customerMajor" />
+		<result column="education" jdbcType="VARCHAR" property="education" />
+		<result column="school_collega" jdbcType="VARCHAR" property="schoolCollega" />
+		<result column="school_time" jdbcType="VARCHAR" property="schoolTime" />
+		<result column="caitan_status" jdbcType="CHAR" property="caitanStatus" />
+		<result column="caitan_creat_time" jdbcType="TIMESTAMP" property="caitanCreatTime" />
+		<result column="real_name" jdbcType="VARCHAR" property="realName" />
+		<result column="customer_college" jdbcType="VARCHAR" property="customerCollege" />
+		<result column="convenient_communication" jdbcType="VARCHAR" property="convenientCommunication" />
+		<result column="customer_status" jdbcType="VARCHAR" property="customerStatus" />
+		<result column="login_status" jdbcType="INTEGER" property="loginStatus" />
+		<result column="resource" jdbcType="CHAR" property="resource" />
+		<result column="self_evaluation" jdbcType="LONGVARCHAR" property="selfEvaluation" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+    id, customer_name, customer_head, customer_password, customer_phone, customer_born,
+    zs_name, customer_sex, customer_age, census_register, address, customer_email, customer_school,
+    customer_major, education, school_collega, school_time, caitan_status, caitan_creat_time,
+    real_name, customer_college, convenient_communication, customer_status, login_status,
+    resource,self_evaluation
+  </sql>
+
+	<!--新增-->
+	<insert id="insert" parameterType="com.zhipin.project.mzt.app.domain.Customer">
+    insert into customer (id, customer_name, customer_head,
+      customer_password, customer_phone, customer_born,
+      zs_name, customer_sex, customer_age,
+      census_register, address, customer_email,
+      customer_school, customer_major, education,
+      school_collega, school_time, caitan_status,
+      caitan_creat_time, real_name, customer_college,
+      convenient_communication, customer_status,
+      login_status, resource, self_evaluation
+      )
+    values (#{id,jdbcType=INTEGER}, #{customerName,jdbcType=VARCHAR}, #{customerHead,jdbcType=VARCHAR},
+      #{customerPassword,jdbcType=VARCHAR}, #{customerPhone,jdbcType=VARCHAR}, #{customerBorn,jdbcType=VARCHAR},
+      #{zsName,jdbcType=VARCHAR}, #{customerSex,jdbcType=CHAR}, #{customerAge,jdbcType=INTEGER},
+      #{censusRegister,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{customerEmail,jdbcType=VARCHAR},
+      #{customerSchool,jdbcType=VARCHAR}, #{customerMajor,jdbcType=VARCHAR}, #{education,jdbcType=VARCHAR},
+      #{schoolCollega,jdbcType=VARCHAR}, #{schoolTime,jdbcType=VARCHAR}, #{caitanStatus,jdbcType=CHAR},
+      #{caitanCreatTime,jdbcType=TIMESTAMP}, #{realName,jdbcType=VARCHAR}, #{customerCollege,jdbcType=VARCHAR},
+      #{convenientCommunication,jdbcType=VARCHAR}, #{customerStatus,jdbcType=VARCHAR},
+      #{loginStatus,jdbcType=INTEGER}, #{resource,jdbcType=CHAR}, #{selfEvaluation,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+
+	<update id="updateByPrimaryKeySelective" parameterType="com.zhipin.project.mzt.app.domain.Customer">
+		update customer
+		<set>
+			<if test="customerName != null">
+				customer_name = #{customerName,jdbcType=VARCHAR},
+			</if>
+			<if test="customerHead != null">
+				customer_head = #{customerHead,jdbcType=VARCHAR},
+			</if>
+			<if test="customerPassword != null">
+				customer_password = #{customerPassword,jdbcType=VARCHAR},
+			</if>
+			<if test="customerPhone != null">
+				customer_phone = #{customerPhone,jdbcType=VARCHAR},
+			</if>
+			<if test="customerBorn != null">
+				customer_born = #{customerBorn,jdbcType=VARCHAR},
+			</if>
+			<if test="zsName != null">
+				zs_name = #{zsName,jdbcType=VARCHAR},
+			</if>
+			<if test="customerSex != null">
+				customer_sex = #{customerSex,jdbcType=CHAR},
+			</if>
+			<if test="customerAge != null">
+				customer_age = #{customerAge,jdbcType=INTEGER},
+			</if>
+			<if test="censusRegister != null">
+				census_register = #{censusRegister,jdbcType=VARCHAR},
+			</if>
+			<if test="address != null">
+				address = #{address,jdbcType=VARCHAR},
+			</if>
+			<if test="customerEmail != null">
+				customer_email = #{customerEmail,jdbcType=VARCHAR},
+			</if>
+			<if test="customerSchool != null">
+				customer_school = #{customerSchool,jdbcType=VARCHAR},
+			</if>
+			<if test="customerMajor != null">
+				customer_major = #{customerMajor,jdbcType=VARCHAR},
+			</if>
+			<if test="education != null">
+				education = #{education,jdbcType=VARCHAR},
+			</if>
+			<if test="schoolCollega != null">
+				school_collega = #{schoolCollega,jdbcType=VARCHAR},
+			</if>
+			<if test="schoolTime != null">
+				school_time = #{schoolTime,jdbcType=VARCHAR},
+			</if>
+			<if test="caitanStatus != null">
+				caitan_status = #{caitanStatus,jdbcType=CHAR},
+			</if>
+			<if test="caitanCreatTime != null">
+				caitan_creat_time = #{caitanCreatTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="realName != null">
+				real_name = #{realName,jdbcType=VARCHAR},
+			</if>
+			<if test="customerCollege != null">
+				customer_college = #{customerCollege,jdbcType=VARCHAR},
+			</if>
+			<if test="convenientCommunication != null">
+				convenient_communication = #{convenientCommunication,jdbcType=VARCHAR},
+			</if>
+			<if test="customerStatus != null">
+				customer_status = #{customerStatus,jdbcType=VARCHAR},
+			</if>
+			<if test="loginStatus != null">
+				login_status = #{loginStatus,jdbcType=INTEGER},
+			</if>
+			<if test="resource != null">
+				resource = #{resource,jdbcType=CHAR},
+			</if>
+			<if test="selfEvaluation != null">
+				self_evaluation = #{selfEvaluation,jdbcType=LONGVARCHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+
+	<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMap">
+		select
+		*
+		from customer
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from customer
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+	
+</mapper> 

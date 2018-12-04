@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhipin.project.mzt.app.mapper.WelfareMapper">
+	<resultMap type="com.zhipin.project.mzt.app.domain.Welfare" id="ResultMap">
+		<id column="id" jdbcType="BIGINT" property="id" />
+		<result column="welfare_name" jdbcType="VARCHAR" property="welfareName" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+    id, welfare_name
+  </sql>
+
+	<!--新增-->
+	<insert id="insert" parameterType="com.zhipin.project.mzt.app.domain.Welfare">
+    insert into welfare (id, welfare_name)
+    values (#{id,jdbcType=BIGINT}, #{welfareName,jdbcType=VARCHAR})
+  </insert>
+
+	<update id="updateByPrimaryKeySelective" parameterType="com.zhipin.project.mzt.app.domain.Welfare">
+		update welfare
+		<set>
+			<if test="welfareName != null">
+				welfare_name = #{welfareName,jdbcType=VARCHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=BIGINT}
+	</update>
+
+	<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMap">
+		select
+		*
+		from welfare
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from welfare
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+	<select id="getAllWelfare" resultMap="ResultMap">
+		select
+		*
+		from welfare
+	</select>
+	
+</mapper> 

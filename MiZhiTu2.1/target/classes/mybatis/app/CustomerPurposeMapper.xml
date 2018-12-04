@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhipin.project.mzt.app.mapper.CustomerPurposeMapper">
+	<resultMap type="com.zhipin.project.mzt.app.domain.CustomerPurpose" id="ResultMap">
+		<id column="id" jdbcType="INTEGER" property="id" />
+		<result column="customer_id" jdbcType="INTEGER" property="customerId" />
+		<result column="job_category" jdbcType="VARCHAR" property="jobCategory" />
+		<result column="city_name" jdbcType="VARCHAR" property="cityName" />
+		<result column="expect_salary" jdbcType="VARCHAR" property="expectSalary" />
+		<result column="purpose_name" jdbcType="VARCHAR" property="purposeName" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+   		id, customer_id, job_category, city_name, expect_salary, purpose_name
+  	</sql>
+
+	<!--新增-->
+	<insert id="insert" parameterType="com.zhipin.project.mzt.app.domain.CustomerPurpose">
+     insert into customer_purpose (id, customer_id, job_category,
+      city_name, expect_salary, purpose_name
+      )
+    values (#{id,jdbcType=INTEGER}, #{customerId,jdbcType=INTEGER}, #{jobCategory,jdbcType=VARCHAR},
+      #{cityName,jdbcType=VARCHAR}, #{expectSalary,jdbcType=VARCHAR}, #{purposeName,jdbcType=VARCHAR}
+      )
+  </insert>
+
+	<update id="updateByPrimaryKeySelective" parameterType="com.zhipin.project.mzt.app.domain.CustomerPurpose">
+		update customer_purpose
+		<set>
+			<if test="customerId != null">
+				customer_id = #{customerId,jdbcType=INTEGER},
+			</if>
+			<if test="jobCategory != null">
+				job_category = #{jobCategory,jdbcType=VARCHAR},
+			</if>
+			<if test="cityName != null">
+				city_name = #{cityName,jdbcType=VARCHAR},
+			</if>
+			<if test="expectSalary != null">
+				expect_salary = #{expectSalary,jdbcType=VARCHAR},
+			</if>
+			<if test="purposeName != null">
+				purpose_name = #{purposeName,jdbcType=VARCHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+
+	<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMap">
+		select
+		*
+		from customer_purpose
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from customer_purpose
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+	
+</mapper> 

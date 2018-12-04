@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhipin.project.mzt.app.mapper.CompanyPictureMapper">
+	<resultMap type="com.zhipin.project.mzt.app.domain.CompanyPicture" id="ResultMap">
+		<id column="id" jdbcType="INTEGER" property="id" />
+		<result column="company_id" jdbcType="INTEGER" property="companyId" />
+		<result column="image_path" jdbcType="VARCHAR" property="imagePath" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+   id, company_id, image_path
+  </sql>
+
+	<!--新增-->
+	<insert id="insert" parameterType="com.zhipin.project.mzt.app.domain.CompanyPicture">
+    insert into company_picture (id, company_id, image_path
+      )
+    values (#{id,jdbcType=INTEGER}, #{companyId,jdbcType=INTEGER}, #{imagePath,jdbcType=VARCHAR}
+      )
+  </insert>
+
+	<!--修改-->
+	<!--<update id="updateByPrimaryKeySelective" parameterType="com.zhipin.project.app.domain.CompanyPicture">
+		update company_picture
+		<set>
+			<if test="companyId != null">
+				company_id = #{companyId,jdbcType=INTEGER},
+			</if>
+			<if test="imagePath != null">
+				image_path = #{imagePath,jdbcType=VARCHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=INTEGER}
+	</update>-->
+
+	<!--根据id查询-->
+	<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMap">
+		select
+		<include refid="Base_Column_List" />
+		from company_picture
+		where company_id = #{companyId,jdbcType=INTEGER}
+	</select>
+	<!--根据id删除	-->
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+  	delete from company_picture
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+	
+</mapper> 

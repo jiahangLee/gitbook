@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhipin.project.mzt.app.mapper.SimpleSendMapper">
+	<resultMap type="com.zhipin.project.mzt.app.domain.SimpleSend" id="ResultMap">
+		<id column="id" jdbcType="BIGINT" property="id" />
+		<result column="customer_id" jdbcType="BIGINT" property="customerId" />
+		<result column="position_id" jdbcType="BIGINT" property="positionId" />
+		<result column="name" jdbcType="VARCHAR" property="name" />
+		<result column="phone" jdbcType="VARCHAR" property="phone" />
+		<result column="school" jdbcType="VARCHAR" property="school" />
+		<result column="major" jdbcType="VARCHAR" property="major" />
+		<result column="graduate_time" jdbcType="VARCHAR" property="graduateTime" />
+		<result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+		<result column="status" jdbcType="CHAR" property="status" />
+		<result column="isCaiTan" jdbcType="CHAR" property="iscaitan" />
+		<result column="simple_send_source" jdbcType="CHAR" property="simpleSendSource" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+    id, customer_id, position_id, name, phone, school, major, graduate_time, create_date,
+    status, isCaiTan, simple_send_source
+  </sql>
+
+	<!--新增-->
+	<insert id="insert" parameterType="com.zhipin.project.mzt.app.domain.SimpleSend">
+     insert into simple_send (id, customer_id, position_id,
+      name, phone, school,
+      major, graduate_time, create_date,
+      status, isCaiTan, simple_send_source
+      )
+    values (#{id,jdbcType=BIGINT}, #{customerId,jdbcType=BIGINT}, #{positionId,jdbcType=BIGINT},
+      #{name,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{school,jdbcType=VARCHAR},
+      #{major,jdbcType=VARCHAR}, #{graduateTime,jdbcType=VARCHAR}, #{createDate,jdbcType=TIMESTAMP},
+      #{status,jdbcType=CHAR}, #{iscaitan,jdbcType=CHAR}, #{simpleSendSource,jdbcType=CHAR}
+      )
+  </insert>
+
+	<update id="updateByPrimaryKeySelective" parameterType="com.zhipin.project.mzt.app.domain.SimpleSend">
+		update simple_send
+		<set>
+			<if test="customerId != null">
+				customer_id = #{customerId,jdbcType=BIGINT},
+			</if>
+			<if test="positionId != null">
+				position_id = #{positionId,jdbcType=BIGINT},
+			</if>
+			<if test="name != null">
+				name = #{name,jdbcType=VARCHAR},
+			</if>
+			<if test="phone != null">
+				phone = #{phone,jdbcType=VARCHAR},
+			</if>
+			<if test="school != null">
+				school = #{school,jdbcType=VARCHAR},
+			</if>
+			<if test="major != null">
+				major = #{major,jdbcType=VARCHAR},
+			</if>
+			<if test="graduateTime != null">
+				graduate_time = #{graduateTime,jdbcType=VARCHAR},
+			</if>
+			<if test="createDate != null">
+				create_date = #{createDate,jdbcType=TIMESTAMP},
+			</if>
+			<if test="status != null">
+				status = #{status,jdbcType=CHAR},
+			</if>
+			<if test="iscaitan != null">
+				isCaiTan = #{iscaitan,jdbcType=CHAR},
+			</if>
+			<if test="simpleSendSource != null">
+				simple_send_source = #{simpleSendSource,jdbcType=CHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=BIGINT}
+	</update>
+
+	<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMap">
+		select
+		*
+		from simple_send
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from simple_send
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+	
+</mapper> 

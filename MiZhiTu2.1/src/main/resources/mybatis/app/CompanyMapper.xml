@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhipin.project.mzt.app.mapper.CompanyMapper">
+    <resultMap type="com.zhipin.project.mzt.app.domain.Company" id="ResultMap">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="company_name" jdbcType="VARCHAR" property="companyName"/>
+        <result column="create_user_id" jdbcType="INTEGER" property="createUserId"/>
+        <result column="company_email" jdbcType="VARCHAR" property="companyEmail"/>
+        <result column="company_address" jdbcType="VARCHAR" property="companyAddress"/>
+        <result column="company_type" jdbcType="VARCHAR" property="companyType"/>
+        <result column="company_phone" jdbcType="VARCHAR" property="companyPhone"/>
+        <result column="company_status" jdbcType="CHAR" property="companyStatus"/>
+        <result column="create_date" jdbcType="DATE" property="createDate"/>
+        <result column="update_date" jdbcType="DATE" property="updateDate"/>
+        <result column="company_create_date" jdbcType="DATE" property="companyCreateDate"/>
+        <result column="company_person" jdbcType="VARCHAR" property="companyPerson"/>
+        <result column="company_logo" jdbcType="VARCHAR" property="companyLogo"/>
+        <result column="municipal_county" jdbcType="VARCHAR" property="municipalCounty"/>
+        <result column="company_scale" jdbcType="INTEGER" property="companyScale"/>
+        <result column="login_name" jdbcType="VARCHAR" property="loginName"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+        <result column="company_desc" jdbcType="LONGVARCHAR" property="companyDesc"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    id, company_name, create_user_id, company_email, company_address, company_type, company_phone,
+    company_status, create_date, update_date, company_create_date, company_person, company_logo,
+    municipal_county, company_scale, login_name, password,company_desc
+  </sql>
+
+    <!--新增-->
+    <insert id="insert" parameterType="com.zhipin.project.mzt.app.domain.Company">
+    insert into company (id, company_name, create_user_id,
+      company_email, company_address, company_type,
+      company_phone, company_status, create_date,
+      update_date, company_create_date, company_person,
+      company_logo, municipal_county, company_scale,
+      login_name, password, company_desc
+      )
+    values (#{id,jdbcType=INTEGER}, #{companyName,jdbcType=VARCHAR}, #{createUserId,jdbcType=INTEGER},
+      #{companyEmail,jdbcType=VARCHAR}, #{companyAddress,jdbcType=VARCHAR}, #{companyType,jdbcType=VARCHAR},
+      #{companyPhone,jdbcType=VARCHAR}, #{companyStatus,jdbcType=CHAR}, #{createDate,jdbcType=DATE},
+      #{updateDate,jdbcType=DATE}, #{companyCreateDate,jdbcType=DATE}, #{companyPerson,jdbcType=VARCHAR},
+      #{companyLogo,jdbcType=VARCHAR}, #{municipalCounty,jdbcType=VARCHAR}, #{companyScale,jdbcType=INTEGER},
+      #{loginName,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{companyDesc,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+
+    <update id="updateByPrimaryKeySelective" parameterType="com.zhipin.project.mzt.app.domain.Company">
+        update company
+        <set>
+            <if test="companyName != null and companyName != ''">
+                company_name = #{companyName,jdbcType=VARCHAR},
+            </if>
+            <if test="createUserId != null and createUserId != ''">
+                create_user_id = #{createUserId,jdbcType=INTEGER},
+            </if>
+            <if test="companyEmail != null and companyEmail != ''">
+                company_email = #{companyEmail,jdbcType=VARCHAR},
+            </if>
+            <if test="companyAddress != null and companyAddress != ''">
+                company_address = #{companyAddress,jdbcType=VARCHAR},
+            </if>
+            <if test="companyType != null and companyType != ''">
+                company_type = #{companyType,jdbcType=VARCHAR},
+            </if>
+            <if test="companyPhone != null and companyPhone != ''">
+                company_phone = #{companyPhone,jdbcType=VARCHAR},
+            </if>
+            <if test="companyStatus != null and companyStatus != ''">
+                company_status = #{companyStatus,jdbcType=CHAR},
+            </if>
+           <!-- <if test="createDate != null and createDate != ''">
+                create_date = #{createDate,jdbcType=DATE},
+            </if>-->
+            <if test="updateDate != null  and updateDate != ''">
+                update_date = #{updateDate,jdbcType=DATE},
+            </if>
+            <if test="companyCreateDate != null and companyCreateDate != ''">
+                company_create_date = #{companyCreateDate,jdbcType=DATE},
+            </if>
+            <if test="companyPerson != null and companyPerson != ''">
+                company_person = #{companyPerson,jdbcType=VARCHAR},
+            </if>
+            <if test="companyLogo != null and companyLogo != ''">
+                company_logo = #{companyLogo,jdbcType=VARCHAR},
+            </if>
+            <if test="municipalCounty != null and municipalCounty != ''">
+                municipal_county = #{municipalCounty,jdbcType=VARCHAR},
+            </if>
+            <if test="companyScale != null and companyScale != ''">
+                company_scale = #{companyScale,jdbcType=INTEGER},
+            </if>
+            <if test="loginName != null and loginName != ''">
+                login_name = #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null and password != ''">
+                password = #{password,jdbcType=VARCHAR},
+            </if>
+            <if test=" != null and companyDesc != ''">
+                company_desc = #{companyDesc,jdbcType=LONGVARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMap">
+		select *
+		from company
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from company
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+</mapper> 

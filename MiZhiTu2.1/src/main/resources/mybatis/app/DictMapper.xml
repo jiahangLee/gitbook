@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhipin.project.mzt.app.mapper.DictMapper">
+	<resultMap type="com.zhipin.project.mzt.app.domain.Dict" id="ResultMap">
+		<id column="id" jdbcType="INTEGER" property="id" />
+		<result column="type_name" jdbcType="VARCHAR" property="typeName" />
+		<result column="name" jdbcType="VARCHAR" property="name" />
+		<result column="parent_id" jdbcType="INTEGER" property="parentId" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+    id, type_name, name, parent_id
+  </sql>
+
+	<!--新增-->
+	<insert id="insert" parameterType="com.zhipin.project.mzt.app.domain.Dict">
+    insert into dict (id, type_name, name,
+      parent_id)
+    values (#{id,jdbcType=INTEGER}, #{typeName,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR},
+      #{parentId,jdbcType=INTEGER})
+  </insert>
+
+	<update id="updateByPrimaryKeySelective" parameterType="com.zhipin.project.mzt.app.domain.Dict">
+		update dict
+		<set>
+			<if test="typeName != null">
+				type_name = #{typeName,jdbcType=VARCHAR},
+			</if>
+			<if test="name != null">
+				name = #{name,jdbcType=VARCHAR},
+			</if>
+			<if test="parentId != null">
+				parent_id = #{parentId,jdbcType=INTEGER},
+			</if>
+		</set>
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+
+
+
+	<!-- 查询薪资范围 -->
+	<select id="getAllSalary" parameterType="int" resultMap="ResultMap">
+		select
+		<include refid="Base_Column_List"></include>
+		from dict
+		where parent_id =1;
+	</select>
+	<!-- 查询学历 -->
+	<select id="getAllEducation" parameterType="int" resultMap="ResultMap">
+		select
+		<include refid="Base_Column_List"></include>
+		from dict
+		where parent_id =10;
+	</select>
+
+	<!-- 查询求职状态-->
+	<select id="getAllStatus" parameterType="int" resultMap="ResultMap">
+		select
+		<include refid="Base_Column_List"></include>
+		from dict
+		where parent_id =23;
+	</select>
+
+	<!-- 查询工作年限-->
+	<select id="getAllWorkYear" parameterType="int" resultMap="ResultMap">
+		select
+		<include refid="Base_Column_List"></include>
+		from dict
+		where parent_id =28;
+	</select>
+
+	<!-- 查询公司规模-->
+	<select id="getAllScale" parameterType="int" resultMap="ResultMap">
+		select
+		<include refid="Base_Column_List"></include>
+		from dict
+		where parent_id =34;
+	</select>
+
+	
+</mapper> 

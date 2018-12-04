@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhipin.project.mzt.app.mapper.PositionMapper">
+	<resultMap type="com.zhipin.project.mzt.app.domain.Position" id="ResultMap">
+		<id column="id" jdbcType="BIGINT" property="id" />
+		<result column="position_name" jdbcType="VARCHAR" property="positionName" />
+		<result column="position_salary" jdbcType="INTEGER" property="positionSalary" />
+		<result column="position_address" jdbcType="VARCHAR" property="positionAddress" />
+		<result column="work_year" jdbcType="INTEGER" property="workYear" />
+		<result column="position_number" jdbcType="VARCHAR" property="positionNumber" />
+		<result column="education" jdbcType="INTEGER" property="education" />
+		<result column="position_age" jdbcType="VARCHAR" property="positionAge" />
+		<result column="create_date" jdbcType="DATE" property="createDate" />
+		<result column="update_date" jdbcType="DATE" property="updateDate" />
+		<result column="status" jdbcType="BIGINT" property="status" />
+		<result column="province_city_county" jdbcType="VARCHAR" property="provinceCityCounty" />
+		<result column="user_id" jdbcType="INTEGER" property="userId" />
+		<result column="company_id" jdbcType="INTEGER" property="companyId" />
+		<result column="position_weal" jdbcType="INTEGER" property="positionWeal" />
+		<result column="first_level_id" jdbcType="INTEGER" property="firstLevelId" />
+		<result column="second_level_id" jdbcType="INTEGER" property="secondLevelId" />
+		<result column="three_level_id" jdbcType="INTEGER" property="threeLevelId" />
+		<result column="position_desc" jdbcType="LONGVARCHAR" property="positionDesc" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+    id, position_name, position_salary, position_address, work_year, position_number,
+    education, position_age, create_date, update_date, status, province_city_county,
+    user_id, company_id, position_weal, first_level_id, second_level_id, three_level_id, position_desc
+  </sql>
+
+	<!--新增-->
+	<insert id="insert" parameterType="com.zhipin.project.mzt.app.domain.Position">
+    insert into position (id, position_name, position_salary,
+      position_address, work_year, position_number,
+      education, position_age, create_date,
+      update_date, status, province_city_county,
+      user_id, company_id, position_weal,
+      first_level_id, second_level_id, three_level_id,
+      position_desc)
+    values (#{id,jdbcType=BIGINT}, #{positionName,jdbcType=VARCHAR}, #{positionSalary,jdbcType=INTEGER},
+      #{positionAddress,jdbcType=VARCHAR}, #{workYear,jdbcType=INTEGER}, #{positionNumber,jdbcType=VARCHAR},
+      #{education,jdbcType=INTEGER}, #{positionAge,jdbcType=VARCHAR}, #{createDate,jdbcType=DATE},
+      #{updateDate,jdbcType=DATE}, #{status,jdbcType=BIGINT}, #{provinceCityCounty,jdbcType=VARCHAR},
+      #{userId,jdbcType=INTEGER}, #{companyId,jdbcType=INTEGER}, #{positionWeal,jdbcType=INTEGER},
+      #{firstLevelId,jdbcType=INTEGER}, #{secondLevelId,jdbcType=INTEGER}, #{threeLevelId,jdbcType=INTEGER},
+      #{positionDesc,jdbcType=LONGVARCHAR})
+  </insert>
+
+	<update id="updateByPrimaryKeySelective" parameterType="com.zhipin.project.mzt.app.domain.Position">
+		update position
+		<set>
+			<if test="positionName != null">
+				position_name = #{positionName,jdbcType=VARCHAR},
+			</if>
+			<if test="positionSalary != null">
+				position_salary = #{positionSalary,jdbcType=INTEGER},
+			</if>
+			<if test="positionAddress != null">
+				position_address = #{positionAddress,jdbcType=VARCHAR},
+			</if>
+			<if test="workYear != null">
+				work_year = #{workYear,jdbcType=INTEGER},
+			</if>
+			<if test="positionNumber != null">
+				position_number = #{positionNumber,jdbcType=VARCHAR},
+			</if>
+			<if test="education != null">
+				education = #{education,jdbcType=INTEGER},
+			</if>
+			<if test="positionAge != null">
+				position_age = #{positionAge,jdbcType=VARCHAR},
+			</if>
+			<if test="createDate != null">
+				create_date = #{createDate,jdbcType=DATE},
+			</if>
+			<if test="updateDate != null">
+				update_date = #{updateDate,jdbcType=DATE},
+			</if>
+			<if test="status != null">
+				status = #{status,jdbcType=BIGINT},
+			</if>
+			<if test="provinceCityCounty != null">
+				province_city_county = #{provinceCityCounty,jdbcType=VARCHAR},
+			</if>
+			<if test="userId != null">
+				user_id = #{userId,jdbcType=INTEGER},
+			</if>
+			<if test="companyId != null">
+				company_id = #{companyId,jdbcType=INTEGER},
+			</if>
+			<if test="positionWeal != null">
+				position_weal = #{positionWeal,jdbcType=INTEGER},
+			</if>
+			<if test="firstLevelId != null">
+				first_level_id = #{firstLevelId,jdbcType=INTEGER},
+			</if>
+			<if test="secondLevelId != null">
+				second_level_id = #{secondLevelId,jdbcType=INTEGER},
+			</if>
+			<if test="threeLevelId != null">
+				three_level_id = #{threeLevelId,jdbcType=INTEGER},
+			</if>
+			<if test="positionDesc != null">
+				position_desc = #{positionDesc,jdbcType=LONGVARCHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=BIGINT}
+	</update>
+
+	<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMap">
+		select
+		*
+		from position
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from position
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+	
+</mapper> 

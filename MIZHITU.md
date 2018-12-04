@@ -164,7 +164,15 @@
   - Interceptor拦截器：拦截url以action结尾或者没有后缀的,没有后缀拦截器会认为是.action结尾。。 如：struts2拦截器、spring拦截器
   - Spring AOP拦截器：只能拦截Spring管理Bean的访问（业务层Service），就是说执行某个bean容器中方法时进行拦截，而不是对url。
 
-#### 反射
+#### 反射与RTTI
+
+* RTTI:运行时识别类
+  * 是检查不是加载
+* 三种反射机制写法
+  * object.getClass()
+  * Class.forName()
+  * 普通类类名.class()
+    * 有的需要初始化
 
 #### 站点统计
 

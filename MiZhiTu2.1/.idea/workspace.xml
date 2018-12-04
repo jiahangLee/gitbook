@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="a4fe6185-66d1-444a-b670-b63d2d981534" name="默认" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-druid.yml" afterPath="$PROJECT_DIR$/src/main/resources/application-druid.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-druid.yml" afterPath="$PROJECT_DIR$/target/classes/application-druid.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/common/exception/base/BaseException.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/common/exception/base/BaseException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/common/support/StrFormatter.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/common/support/StrFormatter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/IpUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/IpUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/MapDataUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/MapDataUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/Md5Utils.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/Md5Utils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/file/FileUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/file/FileUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/http/HttpUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/http/HttpUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/poi/ExcelUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/common/utils/poi/ExcelUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/framework/aspectj/DataSourceAspect.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/framework/aspectj/DataSourceAspect.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/framework/config/SwaggerConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/framework/config/SwaggerConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/framework/shiro/web/session/SpringSessionValidationScheduler.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/framework/shiro/web/session/SpringSessionValidationScheduler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/monitor/logininfor/domain/Logininfor.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/monitor/logininfor/domain/Logininfor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/monitor/online/domain/OnlineSession.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/monitor/online/domain/OnlineSession.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/monitor/online/domain/UserOnline.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/monitor/online/domain/UserOnline.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/monitor/operlog/domain/OperLog.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/monitor/operlog/domain/OperLog.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/config/domain/Config.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/config/domain/Config.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/dept/domain/Dept.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/dept/domain/Dept.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/dict/domain/DictData.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/dict/domain/DictData.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/dict/domain/DictType.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/dict/domain/DictType.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/menu/domain/Menu.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/menu/domain/Menu.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/notice/domain/Notice.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/notice/domain/Notice.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/post/domain/Post.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/post/domain/Post.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/role/domain/Role.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/role/domain/Role.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/role/domain/RoleDept.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/role/domain/RoleDept.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/role/domain/RoleMenu.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/role/domain/RoleMenu.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/user/controller/CaptchaController.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/user/controller/CaptchaController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/user/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/user/domain/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/user/domain/UserPost.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/user/domain/UserPost.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/user/domain/UserRole.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/system/user/domain/UserRole.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhipin/project/tool/gen/util/GenUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/zhipin/project/tool/gen/util/GenUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-435312469">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="0" value="1" />
+          <entry key="LICENSE" value="1" />
+          <entry key="class" value="1" />
+          <entry key="css" value="4" />
+          <entry key="gitignore" value="1" />
+          <entry key="groovy" value="1" />
+          <entry key="html" value="18" />
+          <entry key="java" value="124" />
+          <entry key="js" value="3" />
+          <entry key="pdm" value="2" />
+          <entry key="png" value="5" />
+          <entry key="properties" value="2" />
+          <entry key="sh" value="1" />
+          <entry key="sql" value="5" />
+          <entry key="txt" value="4" />
+          <entry key="vm" value="2" />
+          <entry key="xml" value="47" />
+          <entry key="yml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="18" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="124" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Properties" value="2" />
+          <entry key="SQL" value="5" />
+          <entry key="Scratch" value="1" />
+          <entry key="UML" value="1" />
+          <entry key="VTL" value="2" />
+          <entry key="XML" value="47" />
+          <entry key="YAML" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="319" />
+          <entry key="java" value="569" />
+          <entry key="js" value="1" />
+          <entry key="xml" value="145" />
+          <entry key="yml" value="87" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="319" />
+          <entry key="JAVA" value="569" />
+          <entry key="JavaScript" value="1" />
+          <entry key="XML" value="145" />
+          <entry key="YAML" value="87" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="730765228">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="9" />
+          <entry key="java" value="109" />
+          <entry key="js" value="3" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="84" />
+          <entry key="yml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="9" />
+          <entry key="JAVA" value="109" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="84" />
+          <entry key="YAML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="544" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="SQL" value="4" />
+          <entry key="XML" value="173" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="9" />
+          <entry key="html" value="1" />
+          <entry key="java" value="544" />
+          <entry key="xml" value="177" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RuoYi" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/dict/data/data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-966">
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-897">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1543828342113" expanded="true" signature="4562:4570" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/tool/GenMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1543307065551" expanded="true" signature="834:923" ph="select table... tables" />
+                <marker date="1543307065551" expanded="true" signature="2075:2257" ph="select colum... columns" />
+                <marker date="1543307065551" expanded="true" signature="2213:2230" ph="select datab... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zhipin.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/zhipin.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="1996" column="79" lean-forward="false" selection-start-line="1996" selection-start-column="79" selection-end-line="1996" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/tool/swagger/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1308">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/dict/data/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-druid.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-druid.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tablePrefix</find>
+      <find>deleteDeptById</find>
+      <find>selectDeptCount</find>
+      <find>checkDeptExistUser</find>
+      <find>glyphicon glyphicon-chevron-right</find>
+      <find>treetable-expander</find>
+      <find>普通角色已分配</find>
+      <find>接口文档</find>
+      <find>导出</find>
+      <find>sys_logininfor</find>
+      <find>updateTime</find>
+      <find>fa fa-calendar</find>
+      <find>delflag</find>
+      <find>del_flag</find>
+      <find>dataScope</find>
+      <find>selectDeptList</find>
+      <find>dept</find>
+      <find>user</find>
+      <find>Dict</find>
+      <find>exportExcel</find>
+      <find>ctx</find>
+      <find>checkEmailUnique</find>
+      <find>system:user:edit</find>
+      <find>#form-dict-add</find>
+      <find>text</find>
+      <find>btnSubmit</find>
+      <find>btn-success</find>
+      <find>btn-block</find>
+      <find>admin123</find>
+      <find>signupForm</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ruoyi</replace>
+      <replace>zhipin</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response3.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/CustomerExperienceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/CustomerPurpose.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/CustomerPurposeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/Dict.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/FeedBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/FeedBackMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/positionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/PositionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/PositionType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/PositionWelfareMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/SharedMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/SimpleSend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/SimpleSendMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/Welfare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/PositionWelfare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/domain/Shared.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/user/user.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/system/user/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/system/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/CompanyMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/ICompanyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/controller/CompanyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/DictMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/IDictService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/impl/CompanyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/impl/DictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/ICompanyTypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/PositionTypeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/IPositionTypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/impl/PositionTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/mapper/WelfareMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/IWelfareService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/app/service/impl/WelfareServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/MiZhiTuApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/service/IWelfareService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/CompanyMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/CompanyPictureMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/CustomerExperienceMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/CustomerPurposeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/DictMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/FeedBackMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/PositionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/PositionTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/PositionWelfareMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/SharedMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/SimpleSendMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/app/WelfareMapper.xml" />
+        <option value="$PROJECT_DIR$/MiZhiTu2.1.iml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-druid.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MiZhiTu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MiZhiTu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MiZhiTu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhipin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="dict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="dict" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MiZhiTu2.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542880968450" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-project" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhipin.project.mzt" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaProject\MiZhiTu2.1\src\main\java\com\zhipin\project\mzt" />
+      <recent name="E:\ideaProject\MiZhiTu2.1\src\main\resources\mybatis\app" />
+      <recent name="C:\Users\Administrator\Desktop\RuoYi-fast\sql" />
+      <recent name="C:\Users\Administrator\Desktop\RuoYi-fast\src\main\resources\static\img" />
+      <recent name="C:\Users\Administrator\Desktop\RuoYi-fast\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhipin.project.app.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\RuoYi-fast\sql\初始sql" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:80" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MiZhiTuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhipin.MiZhiTuApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="MiZhiTu2.1" />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Administrator\Desktop\MiZhiTu2.1" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Desktop\MiZhiTu2.1" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Administrator\Desktop\MiZhiTu2.1\.idea" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Desktop\MiZhiTu2.1\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Administrator\Desktop\MiZhiTu2.1" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Desktop\MiZhiTu2.1" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4fe6185-66d1-444a-b670-b63d2d981534" name="默认" comment="" />
+      <created>1540806223690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540806223690</updated>
+      <workItem from="1540806227115" duration="2254000" />
+      <workItem from="1540808908975" duration="93000" />
+      <workItem from="1540809017735" duration="828000" />
+      <workItem from="1540863861927" duration="8484000" />
+      <workItem from="1540892448268" duration="3554000" />
+      <workItem from="1540951928693" duration="6603000" />
+      <workItem from="1540965941921" duration="612000" />
+      <workItem from="1540970476386" duration="7267000" />
+      <workItem from="1541036402207" duration="8315000" />
+      <workItem from="1541057010808" duration="343000" />
+      <workItem from="1541150257015" duration="1443000" />
+      <workItem from="1541387201979" duration="1826000" />
+      <workItem from="1541471580964" duration="2494000" />
+      <workItem from="1541555730243" duration="8553000" />
+      <workItem from="1541640840357" duration="8912000" />
+      <workItem from="1541729588786" duration="1231000" />
+      <workItem from="1541986441549" duration="18474000" />
+      <workItem from="1542073033620" duration="1805000" />
+      <workItem from="1542091000020" duration="56000" />
+      <workItem from="1542185940622" duration="765000" />
+      <workItem from="1542246911481" duration="2278000" />
+      <workItem from="1542270259201" duration="2716000" />
+      <workItem from="1542332673281" duration="2808000" />
+      <workItem from="1542351130704" duration="10088000" />
+      <workItem from="1542591580315" duration="6930000" />
+      <workItem from="1542678785759" duration="4691000" />
+      <workItem from="1542764309363" duration="6450000" />
+      <workItem from="1542850699731" duration="9054000" />
+      <workItem from="1542869254906" duration="2118000" />
+      <workItem from="1543308180897" duration="1835000" />
+      <workItem from="1543310173885" duration="997000" />
+      <workItem from="1543311201391" duration="12000" />
+      <workItem from="1543392253198" duration="1829000" />
+      <workItem from="1543462039486" duration="509000" />
+      <workItem from="1543546188056" duration="912000" />
+      <workItem from="1543828297797" duration="706000" />
+      <workItem from="1543888021789" duration="1868000" />
+      <workItem from="1543895908745" duration="8400000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="148113000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="调色板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08323831" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3854048" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="设计器" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/utils/Md5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/utils/MapDataUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/constant/PermissionConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/constant/ShiroConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/constant/ScheduleConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/constant/UserConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/exception/base/BaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/exception/file/FileNameLengthLimitExceededException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/exception/user/RoleBlockedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/exception/user/CaptchaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/exception/user/UserBlockedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/exception/user/UserDeleteException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/exception/user/UserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/support/CharsetKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/constant/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/common/constant/CommonMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/controller/CompanyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/domain/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2376">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/domain/CustomerPurpose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/domain/SimpleSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1587">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/mapper/CustomerExperienceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/service/impl/CompanyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/service/IDictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/system/config/controller/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/system/config/domain/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/system/config/mapper/ConfigMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/system/config/service/ConfigServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/system/dict/controller/DictDataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache/ehcache-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/app/CompanyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/domain/CustomerExperience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/mzt/app/domain/CompanyPicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/user/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/dict/data/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/初始sql/2018-10-25_160950.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1725">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ruoyi/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-druid.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/dict/data/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/dict/data/data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-966">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1543828342113" expanded="true" signature="4562:4570" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/tool/GenMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1543307065551" expanded="true" signature="834:923" ph="select table... tables" />
+            <marker date="1543307065551" expanded="true" signature="2075:2257" ph="select colum... columns" />
+            <marker date="1543307065551" expanded="true" signature="2213:2230" ph="select datab... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/zhipin.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="1996" column="79" lean-forward="false" selection-start-line="1996" selection-start-column="79" selection-end-line="1996" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhipin/project/tool/swagger/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1308">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42068964" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
