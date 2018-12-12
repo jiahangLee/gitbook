@@ -1,3 +1,23 @@
+#### 新统一异常处理
+
+* 表单验证参数不通过异常
+  * @min，@valid
+  * BindingReasult返回统一格式类
+* 返回异常
+  * @ControllerAdvice类捕获runtime返回统一格式类
+    * 抛异常的特殊用户
+* 定义统一的返回json的格式类 
+* aop处理请求日志
+* 条件判断是否是xmlhttprequest
+
+#### 新jackson常用注解
+
+* @JsonIgnore
+
+* @JsonFormat
+  * 建议在前端转化
+* @JsonInclude
+
 #### 目前理解通信协议
 
 * bio:一个连接一个线程
