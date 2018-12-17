@@ -102,10 +102,14 @@
 
 * 前端还是[0]来操作数组
 
-* nginx有两个配置文件
 
-  *  全局配置和默认配置
-    * 导致123.206.91.106 不等于www.jiahanglee.club，只认端口不认域名
+#### nginx有两个配置文件
+
+*  全局配置和默认配置
+  * 导致123.206.91.106 不等于www.jiahanglee.club，只认端口不认域名
+  * cat /etc/nginx/nginx.conf （全局配置）
+  * cat /etc/nginx/conf.d/default.conf （默认配置）
+  * /etc/nginx/conf.d/ （自定义配置） 
 
 #### 流流流
 
