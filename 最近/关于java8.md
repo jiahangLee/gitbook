@@ -36,5 +36,6 @@
 
 * 流的终止操作
   * 分为短路操作和非短路操作
+  * 有forEach、collect、reduce、count、max等
 
 * 收集器
